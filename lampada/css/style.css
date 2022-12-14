@@ -27,6 +27,10 @@ body {
     #int {
         width: 15px;
     }
+
+    body {
+        background: radial-gradient(circle at center 50%, #ffe26e, 2%, #000);
+    }
 }
 
 
