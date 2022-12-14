@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+body {
+    background: #865fd6;
+    
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-header {
+    background:#3e0765;
+    padding: 20px;
+    border-radius: 5px 5px 0px 0px;
+    color:#f8f9fb;
+    
+    
+}
+
+label, option {
+    color: #484848;
+}
+
+.input-group {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 1px 1px 6px #0000001c;
+    border-radius: 0px 0px 5px 5px;
+    
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input-box input {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+
+
+.option-box select {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 0.8rem 1.2rem;
+    box-shadow: 1px 1px 6px #0000001c;
+    color: #484848;
+}
+
+
+.inscricao button {
+ margin-top: 1.5rem;
+ width: 100%;
+ padding: 8px;
+ border: none;
+ background: #3e0765;
+ border-radius: 5px;
+}
+
+.inscricao button a {
+    text-decoration: none;
+    color: #f8f9fb;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+footer {
+    text-align: center;
+    background: #3e0765;
+    padding: 2rem;
+    color:#f8f9fb;
+}

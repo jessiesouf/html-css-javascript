@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="#">
+            <div class="form-header">
+                <div class="title">
+                    <h1>Formulário de Inscrição</h1>
+                </div>
+            </div>
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="first-name">Primeiro Nome</label>
+                        <input id="first-name" type="text" name="first-name" placeholder="Digite o seu primeiro nome" required>
+                    </div>
+
+                     <div class="input-box">
+                        <label for="last-name">Sobrenome</label>
+                        <input id="last-name" type="text" name="last-name" placeholder="Digite o seu sobrenome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="tel">Celular</label>
+                        <input id="tel" type="tel" name="tel" placeholder="(xx) xxxxx-xxxx" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="Digite o seu email" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="confirm-email">Confirme o E-mail</label>
+                        <input id="confirm-email" type="email" name="confirm-email" placeholder="Confirme o seu email" required>
+                    </div>
+
+                    
+                    <div class="option-box">
+                        <select name="cursos" id="cursos">
+                        <option disable selected value>Selecione o curso desejado</option>
+                        <option>HTML 5</option>
+                        <option>CSS 3</option>
+                        <option>JavaScript</option>
+                        </select>
+                    </div> 
+                    <div class="inscricao">
+                        <button id="botao"><a href="#">Inscrever-se</a></button>
+                    </div> 
+                   
+                </div>
+                 
+        </form>
+
+        <div id="msg">
+
+        </div>
+    </div>
+  
+    <footer>
+        <p>Desenvolvido por Jessie 2022 &copy; </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+
+body {
+    margin: 0;
+      
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.flex-items {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    place-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+@media screen and (max-width: 300px) {
+    #lamp {
+        width: 65px;
+    }
+    #int {
+        width: 20px;
+    }
+}
+
+
+
