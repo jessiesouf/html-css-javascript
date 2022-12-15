@@ -20,7 +20,7 @@ body {
     
 }
 
-@media screen and (max-width: 500px) {
+@media (min-width: 300px) and (max-width: 600px) {
     body {
         position: relative;
         top: -20px;
@@ -33,7 +33,6 @@ body {
         width: 20px;
     }
 
-    
 }
 
 
