@@ -23,9 +23,10 @@ body {
 @media screen and (max-width: 500px) {
     
     .flex-items {
-        margin-bottom: 45px;
+        position: absolute;
+        bottom: 20px;
     }
-    
+
     #lamp {
         width: 55px;
     }
