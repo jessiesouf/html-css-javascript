@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #f2ebe3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.container {
+   width: 40rem;
+   height: 29rem;
+   display: flex;
+   background: #fff;
+   border-radius: 10px;
+}
+
+.imagem {
+    width: 50%;
+  }
+  
+.imagem img {
+    height: -webkit-fill-available;
+    border-radius: 10px 0px 0px 10px;
+  }
+
+.text-item {
+    padding: 30px;
+    border-radius: 0px 10px 10px 0px;
+  
+}
+
+.text-item .paragrafo {
+    font-family: 'Montserrat', sans-serif;  
+    font-size: 14px 
+}
+
+.text-item .titulo-1{
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-family: 'Montserrat', sans-serif;  
+}
+
+.text-item .titulo-2 {
+    font-family: 'Fraunces', serif;
+    line-height: 1.9rem;
+}
+
+p {
+    line-height: 1.4rem;
+}
+
+.preco {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.preco-1 {
+    color: #3c8067;
+    font-family: 'Fraunces', serif;
+}
+
+.preco s {
+    font-size: 0.8rem;
+}
+
+p, .titulo-1, .preco-s {
+    color: hsl(228, 12%, 48%);
+}
+
+.icon-cart {
+    padding-right: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background: #3c8067;
+    color:  hsl(0, 0%, 100%);
+}
+
+
+button:hover {
+    background:#184131;
+    cursor: pointer;
+}
+
+/*Configurar a responsividade do site*/
+
+@media (max-width:500px) {
+  
+    * {
+        margin: 0;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 350px;
+        height: 620px;
+    }
+
+ 
+    .imagem {
+        width: 100%;
+    }
+
+    .imagem img {
+        content: url(/img/image-product-mobile.jpg);
+        width: 22rem;
+        height: 15rem;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .titulo-1, .titulo-2, .paragrafo {
+        margin-bottom: 20px;
+    }
+
+    .preco {
+        margin-bottom: 10px;
+    }
+    
+}
