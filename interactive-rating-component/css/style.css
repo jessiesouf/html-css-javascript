@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,400;1,700&display=swap');
+
+* {
+   margin: 0;
+   font-family: 'Overpass', sans-serif;
+}
+
+body {
+    background: #141519;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: #212832;
+    width: 20rem;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.icon-star {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50% 50%;
+    background: #262f38;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-star img {
+    width: 1.3rem;
+}
+
+h2, .submit button {
+    color: hsl(0, 0%, 100%);
+}
+
+.text {
+    margin-top: 30px;
+}
+
+.text p {
+    margin-top: 1rem;
+}
+
+button, p {
+    color:  hsl(216, 12%, 54%);
+}
+
+.avaliacao {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+    
+}
+
+.avaliacao button {
+    background: #262f38;
+    border: none;
+    border-radius: 50% 50%;
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.submit {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.submit button {
+    width: 96%;
+    padding: 0.5rem;
+    border-radius: 20px 20px;
+    border: none;
+    background: #fc7613;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.avaliacao button:hover {
+    background: #7c8698;
+    color: hsl(0, 0%, 100%);
+}
+
+.submit button:hover {
+    background: hsl(0, 0%, 100%);
+    color: #fc7613;
+}
