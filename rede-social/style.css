@@ -85,7 +85,7 @@ body {
    background: #eeeeee75;
 }
 
-.input-item input:focus-visible {  
+.input-item input:focus-visible {  /*Cria uma borda ao redor do input com as atribuições abaixo */
     outline: 2px solid  var(--cor-01);
 }
 
