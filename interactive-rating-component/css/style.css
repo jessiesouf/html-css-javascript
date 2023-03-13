@@ -12,6 +12,7 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
+
 }
 
 .container {
@@ -67,6 +68,7 @@ button, p {
     width: 3rem;
     height: 3rem;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .submit {
@@ -84,6 +86,7 @@ button, p {
     cursor: pointer;
     text-transform: uppercase;
     font-size: 0.8rem;
+    transition: 0.3s;
 }
 
 .avaliacao button:hover {
@@ -99,6 +102,6 @@ button, p {
 @media (width: 500px) {
     body {
         margin: 0;
-        padding: 0px;
+        padding: 0;
     }
 }
