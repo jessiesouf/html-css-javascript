@@ -90,7 +90,7 @@ body {
     color:  #211336;
 }
 
-@media screen and (max-width: 400px) {
+@media (min-width: 300px) and (max-width: 600px) {
     .container {
         display: flex;
         width: 100%;
