@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
 :root {
     --cor-01: #201335;
 }
@@ -34,6 +34,14 @@ body {
     justify-content: center;
 }
 
+.enter {
+    font-family: 'Oswald', sans-serif;
+    color: var(--cor-01);
+    align-self: start;
+    margin-bottom: 0.5rem;
+
+}
+
 .input-item {
     display: flex;
     flex-direction: column;
@@ -44,9 +52,14 @@ body {
 
 .input-button {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     margin-top: 0.5rem;
-    width: 100%;
+}
+
+.cadastrar {
+    margin-top: 0.5rem;
+    width: 50%;
+    align-self: center;
 }
 
 .input-item input {
@@ -62,7 +75,7 @@ body {
     padding: 0.5rem 1rem;
     border-radius: 5px;
     border: none;
-    color: #211336;
+    color: var(--cor-01);
     font-weight: bold;
     box-shadow: 0px 0px 8px  var(--cor-01);
     cursor: pointer;
@@ -72,7 +85,7 @@ body {
    background: #eeeeee75;
 }
 
-.input-item input:focus-visible { /*Muda a cor da borda do input quando clicado com o mouse*/
+.input-item input:focus-visible {  
     outline: 2px solid  var(--cor-01);
 }
 
@@ -80,9 +93,14 @@ body {
     color: #080808be;
 }
 
-.input-button input:hover {
+.login:hover {
     background:  var(--cor-01);
     color: #7a82a7;
+}
+
+.cadastrar:hover {
+    background: #42b62f;
+    color: #fff;
 }
 
 .recover {
@@ -93,8 +111,10 @@ body {
     text-decoration: none;
     color:   var(--cor-01);
 }
-
-@media (min-width: 300px) and (max-width: 600px) {
+ .recover:hover {
+    text-decoration: underline;
+ }
+@media (min-width: 300px) and (max-width: 900px) {
     .container {
         display: flex;
         width: 100%;
