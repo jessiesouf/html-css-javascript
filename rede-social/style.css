@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
+:root {
+    --cor-01: #201335;
+}
+
 body {
     margin: 0;
 }
@@ -11,7 +15,7 @@ body {
 }
 
 .item-01 {
-    background: #201335;
+    background: var(--cor-01);
     color: #444b6e;
     font-family: 'Righteous', cursive;
     font-size:3rem;
@@ -50,7 +54,7 @@ body {
     padding: 0.5rem 1rem;
     border-radius: 5px;
     border: none;
-    box-shadow: 0px 0px 8px #211336;
+    box-shadow: 0px 0px 8px  var(--cor-01);
 
 }
 
@@ -60,7 +64,7 @@ body {
     border: none;
     color: #211336;
     font-weight: bold;
-    box-shadow: 0px 0px 8px #211336;
+    box-shadow: 0px 0px 8px  var(--cor-01);
     cursor: pointer;
 }
 
@@ -68,16 +72,16 @@ body {
    background: #eeeeee75;
 }
 
-.input-item input:focus-visible {
-    outline: 2px solid #211336;
+.input-item input:focus-visible { /*Muda a cor da borda do input quando clicado com o mouse*/
+    outline: 2px solid  var(--cor-01);
 }
 
-.input-item input::placeholder {
+.input-item input::placeholder {  /*pseudo-elemento representado por :: é uma palavra-chave adicionada a um seletor que permite que você estilize uma parte específica do elemento selecionado*/
     color: #080808be;
 }
 
 .input-button input:hover {
-    background: #211336;
+    background:  var(--cor-01);
     color: #7a82a7;
 }
 
@@ -87,7 +91,7 @@ body {
 
 .recover a {
     text-decoration: none;
-    color:  #211336;
+    color:   var(--cor-01);
 }
 
 @media (min-width: 300px) and (max-width: 600px) {
@@ -98,12 +102,12 @@ body {
     }
     .item-01 {
         width:100%;
-        height: 100vh;
+        height: 60vh;
         font-size: 1.5rem;
     }
 
     .item-02 {
         width:100%;
-        height: 100vh;
+        height: 40vh;
     }
 }

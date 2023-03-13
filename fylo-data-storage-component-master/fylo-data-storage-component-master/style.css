@@ -12,16 +12,22 @@ body {
 
 .container {
     display: flex;
+    width: 50%;
     height: 100vh;
     gap: 1.5rem;
     margin: 15rem;
 }
 
 .logo {
-    width: 15rem;
+    width: 40%;
+    height: 60%;
     background: #1e2c69;
     padding: 2rem;
     border-radius: 10px 80px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: end;
 }
 
 .icon {
@@ -39,24 +45,34 @@ body {
     height: 2rem;
     padding: 0.3rem;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+.icon-item:hover {
+    background:  #010d35;
+}
+
+.logo-item {
+    align-self: start;
 }
 
 .balao {
     width: 6rem;
     height: 3rem;
     background: #fff;
-    display: flex;
-    justify-content: end;
+    position: absolute;
+    right: 30px;
+    top: -20px;
 }
 
 .grafico {
-    width: 100%;
+    width: 60%;
     height: 50%;
     background: #1e2c69;
     padding: 1.5rem;
     border-radius: 10px;
-    display: flex;
-    flex-direction: column;
+    align-self: end;
+    position: relative;
 }
 
 .barra {
@@ -72,7 +88,7 @@ body {
     width: 75%;
     height: 0.9rem;
     background: linear-gradient(to right, #fe9996, #ee528c);
-    border: solid 2px #151e49;;
+    border: solid 2px #151e49;
     border-radius: 1rem;
     display: flex;
     justify-content: end;
@@ -93,6 +109,13 @@ body {
     font-size: 11px;
 }
 
-.rodape {
-    
+.rodape a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.rodape a:hover {
+    color: #3c7fe4;
 }
