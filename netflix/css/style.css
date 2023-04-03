@@ -1,0 +1,151 @@
+:root {
+    --red--bg--color: #e50b0b;
+    --red--hover-color: #d60407;
+}
+
+* {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#banner {
+    background: 
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(/img/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 690px;
+}
+
+.new {
+    background: var(--red--bg--color);
+    padding: 3px 10px;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.flat {
+    font-size: 19px;
+}
+
+.info a {
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bold;
+    color: #2260bb;
+}
+
+#banner {
+    display: flex;
+    justify-content: center;
+}
+
+.items-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    width: 1200px; 
+}
+
+.enter-menu a {
+    padding: 7px 14px;
+    border: none;
+    border-radius: 4px;
+    background: var(--red--bg--color);
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.enter-menu a:hover {
+background: var(--red--hover-color);
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+.enter-menu select {
+    padding: 0px 14px;
+    border-radius: 4px;
+    border: solid 1px #5a595c;
+    background: #181715;
+    opacity: 0.6;
+    color: #fff;
+}
+
+#banner {
+    color: #fff;
+    line-height: 0.8rem;
+}
+
+section h1 {
+    font-size: 3rem;
+}
+
+
+section h2 {
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+section p {
+    font-size: 1.1rem;
+}
+
+.banner-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+}
+
+.input-mail {
+    display: flex;
+    gap: 8px;
+}
+
+.input-mail a {
+    text-decoration: none;
+    background: var(--red--bg--color);
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 20px 20px;
+    border-radius: 4px;
+}
+
+.input-mail input {
+    width: 300px;
+    border: solid 1px #5a595c;
+    border-radius: 4px;
+    background: #181715;
+    opacity: 0.8;
+    
+}
+
+.margin-layout {
+    height: 0.5rem;
+    background: #313030;
+}

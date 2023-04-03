@@ -1,0 +1,126 @@
+:root {
+    --blue-dark: #1b1944;
+    --blue-medium: #2f65f9;
+    --blue-clear:  #4776f8;
+    --white: #ffffff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.menu ul {
+    display: flex;
+    gap: 60px;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: var(--blue-dark);
+}
+
+.menu a:hover {
+    color: var(--blue-clear);
+}
+
+.container {
+    display: flex;
+    height: 430px;
+    margin: 0px 50px;
+}
+
+.title-register {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+
+.title-register h1 {
+    font-size:50px;
+    color: var(--blue-dark);
+    /* margin: 0; */
+    margin-bottom: 30px; 
+}
+
+.title-register p {
+    font-size:20px;
+    color: var(--blue-dark);
+    margin: 0;
+}
+
+.register-input {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.input-email {
+    width: 60%;
+    height: 30px;
+    border-radius: 4px;
+    border: solid 1px #b1b1b1; 
+    
+}
+
+.input-email:focus-visible {
+    outline: 1px solid var(--blue-clear);
+}
+
+.button-1 {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0px 30px;
+    height: 100%;
+    border: none;
+    border-radius: 4px;
+    background: var(--blue-medium);
+    color: var(--white);    
+}
+
+.button-1:hover {
+    background: var(--blue-clear);
+}
+
+.button-1 a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.img-1, .img-2 {
+    display: flex;
+    width: 50%;
+    margin-right: 50px;
+    justify-content: end;
+}
+
+.coments {
+    display: flex;
+    height: 600px;
+    margin-top: 160px;
+    background-image: url('../images/bg-curve-desktop.svg');
+    background-size: cover;
+    background-position: center;
+}
+
+.coments .title-register {
+    margin-left: 50px;
+}
+
+.coments-users {
+    width: 350px;
+    height: 220px;
+    background: var(--white);
+}

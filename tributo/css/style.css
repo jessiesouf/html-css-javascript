@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap');
+
+:root {
+    --m-t1: #d8beac;
+    --m-t2: #8b6f5a; 
+    --m-t3: #5a4331; 
+    --m-t4: #352417; 
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: var(--m-t1);
+    height: 464px;
+}
+
+.name {
+    text-align: center;
+}
+
+.name h1 {
+    font-size: 60px;
+    font-family: 'Cinzel Decorative', cursive;
+    color: var(--m-t2);
+    margin: 0;
+}
+
+.name p {
+    color: var(--m-t2);
+}
+
+blockquote {
+    font-style: italic;
+    color: var(--m-t2);
+}
+
+cite {
+    font-size: 13px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: #bea28b; 
+}
+
+.desc {
+    width: 30%;
+    padding: 20px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.desc p {
+    color: var(--m-t4);
+}
+
+.works {
+    margin-top: 40px;
+    padding: 20px;
+    line-height: 25px;
+    border: double 6px var(--m-t3);
+    height: max-content;
+    color: var(--m-t4);
+}
+
+.bio {
+    padding: 20px;
+    line-height: 25px;
+    color: var(--m-t4);
+    text-align: justify;
+}
+
+.bio a {
+    text-decoration: none;
+    background: var(--m-t2);
+    color: var(--m-t4);
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.bio a:hover {
+    background: #a5866e;;
+} 
+
+footer {
+    background: #bea28b; 
+    border-top: solid 1px var(--m-t2);
+    text-align: center;
+    color: var(--m-t4);
+    font-size: 13px;
+    height: 40px;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--m-t4);
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 450px) {
+    header {
+        flex-direction: column;
+        justify-content: end;
+        height: max-content;
+    }
+
+    header img {
+        width: 200px;
+    }
+
+    .name h1 {
+        font-size: 23px;
+        margin:  0px 20px;
+    }
+
+    .name p {
+        margin: 0;
+    }
+
+    .desc {
+        width: 100%;
+    }
+
+    .works {
+        margin: 0 20px;
+    }
+}
