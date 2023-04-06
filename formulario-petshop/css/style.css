@@ -113,7 +113,7 @@ input[type="radio"]:checked{
 }
 
 .box-input input:focus-visible {
-    border-bottom: solid 2px var(--t-blue);
+    border-bottom: solid 1px var(--t-blue);
 }
 
 .box-button input {
@@ -155,7 +155,8 @@ footer a:hover {
  }
 
 header h1 {
-    font-size: 18px
+    font-size: 14px;
+    width: 200px;
 }
 
  .img-pet {
@@ -179,12 +180,12 @@ header h1 {
   .box-button input {
     padding: 6px 12px;
   }
+  
 
   footer {
     position: relative;
     bottom: 37px;
     color: var(--c-rose);
-    
   }
 
   footer a {
