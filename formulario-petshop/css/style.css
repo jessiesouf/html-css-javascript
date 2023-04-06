@@ -50,6 +50,10 @@ header h1 {
     width: 250px;
 }
 
+form {
+    width: 80%;
+}
+
 .form-box {
     width: 50%;
     display: flex;
@@ -155,8 +159,8 @@ footer a:hover {
  }
 
 header h1 {
-    font-size: 14px;
-    width: 200px;
+    font-size: 18px;
+    width: 250px;
 }
 
  .img-pet {
@@ -180,11 +184,11 @@ header h1 {
   .box-button input {
     padding: 6px 12px;
   }
-  
+
 
   footer {
     position: relative;
-    bottom: 37px;
+    bottom: 40px;
     color: var(--c-rose);
   }
 
