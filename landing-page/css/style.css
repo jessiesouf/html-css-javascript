@@ -30,7 +30,7 @@ header {
     margin-left: 50px;
 }
 
-ul {
+.menu ul {
     display: flex;
     margin: 0;
 }
@@ -461,7 +461,7 @@ ul {
    .button-plan a {
     font-size: 0.8rem;
    }
-
+ 
    .footer-contact {
     display: flex;
     flex-direction: column;
