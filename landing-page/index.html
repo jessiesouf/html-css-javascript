@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/logo-favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="#"><img src="img/logo.png"></a>
+        </div>
+
+        <nav class="menu">
+            <div class="menu-mobile">
+                <div class="mn-line"></div>
+                <div class="mn-line"></div>
+                <div class="mn-line"></div>
+            </div>
+            <ul>
+               <li><a href="#logo">Início</a></li>
+               <li><a href="#meta">Sobre</a></li>
+               <li><a href="#servicos">Serviços</a></li>
+               <li><a href="#servicos">Portifólio</a></li>
+               <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section id="intro">
+            <div class="tit-ap">
+                <h1>Loan</h1>
+                <p>Armazene e gerencie informações em nuvem de forma prática e segura</p>
+                <a href="#servicos">Saiba mais</a>
+            </div>
+
+            <div class="img-1">
+                <img src="img/img-sobre.png">
+            </div>
+        </section>
+
+        <section id="meta">
+            <div class="sobre">
+                <p>Tem como objetivo melhorar a qualidade no gerenciamento de dados de uma empresa, trazendo diversos benefícios através da tecnologia</p>
+            </div>
+
+            <div class="img-2">
+                <img src="img/img-db.png">
+            </div>
+        </section>
+
+        <section id="portifolio">
+            <div class="titulo-portifolio">
+                <h1>O que Loan tem a oferecer?</h1>
+            </div>
+
+            <div class="portifolio-list">
+                
+                <div class="portifolio-item">
+                        <img src="img/seguranca.png">
+                        <h3>Segurança</h3>
+                        <p>O software possibilita realizar  backups, os dados podem ficar  armazenados em nuvem  proporcionando maior segurança  ao usuário.</p>
+                </div>
+               
+                <div class="portifolio-item">
+                    
+                        <img src="img/acess.png">
+                        <h3>Acessibilidade</h3>
+                        <p>Gerenciável de forma simples,  possibilita o acesso de diversas  plataformas.</p>
+                </div>
+                
+                <div class="portifolio-item">
+                        <img src="img/tech.png">
+                        <h3>Tecnologia</h3>
+                        <p>Use ferramentas de última  geração para um melhor  gerenciamento</p>
+                </div>
+                
+                <div class="portifolio-item">
+                    <div>
+                        <img src="img/tempo.png">
+                    </div>
+                    <div>
+                        <h3>Tempo</h3>
+                    </div>
+                    <div>
+                        <p>Não perca mais o seu tempo em  montar planilhas gigantescas. Em  poucos cliques gerencie os dados.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicos">
+            <div class="servicos-titulo">
+                <h1>Escolha o pacote que atenda o seu negócio</h1>
+            </div>
+
+            <div class="servico-pacote">
+                <div class="pacote-item">
+                    <div class="plan">
+                        <h2>Básico</h2>
+                        <img src="img/free.png">
+                    </div>
+    
+                    <div>
+                        <p>Um plano gratuíto para indivíduos  e donos de empresas que precisam  do Loan para operações básicas.</p>
+                    </div>
+                    
+                    <div class="button-plan">
+                        <a href="#">Adquirir plano</a>
+                    </div>
+                </div>
+                <div class="pacote-item">
+                   <div class="plan">
+                       <h2>Premium</h2>
+                       <img src="img/premium.png">
+                   </div>
+
+                   <div>
+                       <p>Este é o plano pago para  indivíduos e donos de empresas  que precisam de recursos extras.</p>
+                   </div>
+
+                    <div class="button-plan">
+                        <a href="#">Adquirir plano</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>
+        <div class="flex-footer">
+            <div class="footer-contact">
+                <img src="img/logo.png">
+                <p>Entre em contato conosco e saiba mais sobre os nossos serviços</p>
+            </div>
+            <div class="contact">
+                <h3>Contato</h3>
+                 <p>mail@domi.com</p>
+                 <p>(xx) xxxx - xxxx</p>
+            </div>
+            <div class="suporte">
+                <h3>Suporte</h3>
+                <ul>
+                    <li>Centro de Suporte</li>
+                    <li>Feedback</li>
+                    <li>FAQ</li>
+                </ul>
+            </div>
+            <div class="social">
+                <h3>Redes Sociais</h3>
+                <div class="social-items">
+                    <img src="img/facebook-logo.png">
+                    <img src="img/instagram-logo.png">
+                    <img src="img/twitter-logo.png">
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-copy">
+            <p>&copy; 2023 Desenvolvido por <a href="#">Jessie souf</a></p>
+        </div>
+
+        <script type="text/javascript"> /*Função mostrar e esconder o menu*/
+            window.onload = function() {
+                    document.querySelector(".menu-mobile").addEventListener("click", function(){
+                        if (document.querySelector(".menu ul").style.display == 'flex') {
+                            document.querySelector(".menu ul").style.display = 'none';
+                        } else {
+                            document.querySelector(".menu ul").style.display = 'flex';
+                        }
+                    });
+                };
+          </script>
+        
+    </footer>
+</body>
+</html>
