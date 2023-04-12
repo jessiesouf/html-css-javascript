@@ -164,19 +164,18 @@
         <div class="footer-copy">
             <p>&copy; 2023 Desenvolvido por <a href="https://github.com/jessiesouf" target="_blank">Jessie souf</a></p>
         </div>
-
-        <script type="text/javascript"> /*Função mostrar e esconder o menu*/
-            window.onload = function() {
-                    document.querySelector(".menu-mobile").addEventListener("click", function(){
-                        if (document.querySelector(".menu ul").style.display == 'flex') {
-                            document.querySelector(".menu ul").style.display = 'none';
-                        } else {
-                            document.querySelector(".menu ul").style.display = 'flex';
-                        }
-                    });
-                };
-          </script>
-        
     </footer>
+    
+    <script type="text/javascript"> /*Função mostrar e esconder o menu*/
+        window.onload = function() {
+                document.querySelector(".menu-mobile").addEventListener("click", function(){
+                    if (document.querySelector(".menu ul").style.display == 'flex') {
+                        document.querySelector(".menu ul").style.display = 'none';
+                    } else {
+                        document.querySelector(".menu ul").style.display = 'flex';
+                    }
+                });
+            };
+      </script>
 </body>
 </html>
