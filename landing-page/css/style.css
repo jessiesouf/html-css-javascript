@@ -383,110 +383,110 @@ header {
     }
    
     .menu ul {
-    flex-direction: column;
-    display: none;
-    position: absolute;
-    background: var(--clear-blue);
-    padding: 10px 0 10px 10px ;
-    left: 0;
-    height: auto;
-    width: 100%;
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        background: var(--clear-blue);
+        padding: 10px 0 10px 10px ;
+        left: 0;
+        height: auto;
+        width: 100%;
    }
 
    .menu li {
-    margin: 10px 0;
+        margin: 10px 0;
    }
 
    .menu a {
-    color: var(--purple);
-    padding: 10px;
-    border-radius: 5px;
-    transition: 0.2s;
+        color: var(--purple);
+        padding: 10px;
+        border-radius: 5px;
+        transition: 0.2s;
    }
 
    .menu a:hover {
-    background: var(--purple);
-    color: var(--clear-blue);
+        background: var(--purple);
+        color: var(--clear-blue);
    }
 
    header {
-    height: auto;
+        height: auto;
    }
 
    #intro, #meta {
-    flex-direction: column-reverse;
-    align-items: center;
+        flex-direction: column-reverse;
+        align-items: center;
    }
 
    .img-1 img, .img-2 img {
-    width: 100%;
+        width: 100%;
    }
 
    .tit-ap, .sobre {
-    text-align: center;
-    width: 100%;
-    margin-top: 30px;
+        text-align: center;
+        width: 100%;
+        margin-top: 30px;
    }
 
    .tit-ap h1 {
-    font-size: 2.5rem;
+        font-size: 2.5rem;
    }
 
    .tit-ap p {
-    font-size: 1.2rem;
+        font-size: 1.2rem;
    }
 
    .tit-ap a {
-    padding: 6px 10px;
-    font-size: 0.8rem;
+        padding: 6px 10px;
+        font-size: 0.8rem;
    }
 
    .sobre p {
-    font-size: 1.2rem;
+        font-size: 1.2rem;
    }
 
    .portifolio-item {
-    margin-right: 0;
+        margin-right: 0;
    }
 
    #servicos {
-    width: 100%;
+        width: 100%;
    }
 
    .servico-pacote {
-    align-items: center;
-    width: 100%;
+        align-items: center;
+        width: 100%;
    }
 
    .servicos-titulo {
-    font-size: 1.8rem;
+        font-size: 1.8rem;
    }
 
    .pacote-item {
-    width: 85%;
-    margin: 0 0 20px 0;
+        width: 85%;
+        margin: 0 0 20px 0;
    }
 
    .pacote-item p {
-    font-size: 1rem;
+        font-size: 1rem;
    }
 
    .button-plan {
-    padding: 8px 10px;
+        padding: 8px 10px;
    }
 
    .button-plan a {
-    font-size: 0.8rem;
+        font-size: 0.8rem;
    }
  
    .footer-contact {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
    }
 
    .footer-contact p {
-    font-size: 1.2rem;
+        font-size: 1.2rem;
    }
 
 }
