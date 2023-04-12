@@ -388,7 +388,7 @@ header {
     position: absolute;
     background: var(--clear-blue);
     left: 0;
-    height: 30%;
+    height: auto;
     width: 100%;
    }
 
