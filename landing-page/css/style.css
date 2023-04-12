@@ -387,10 +387,10 @@ header {
     display: none;
     position: absolute;
     background: var(--clear-blue);
+    padding: 10px 0 10px 10px ;
     left: 0;
     height: auto;
     width: 100%;
-    padding: 10px 10px;
    }
 
    .menu li {
