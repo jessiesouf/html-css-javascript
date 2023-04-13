@@ -429,11 +429,11 @@ header {
    }
 
    .tit-ap h1 {
-        font-size: 2.5rem;
+        font-size: 3rem;
    }
 
    .tit-ap p {
-        font-size: 1.2rem;
+        font-size: 1.8rem;
    }
 
    .tit-ap a {
@@ -442,7 +442,11 @@ header {
    }
 
    .sobre p {
-        font-size: 1.2rem;
+    font-size: 1.8rem;
+   }
+
+   .titulo-portifolio {
+    font-size: 1.5rem;
    }
 
    .portifolio-item {
