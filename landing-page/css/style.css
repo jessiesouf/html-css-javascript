@@ -132,21 +132,17 @@ header {
     width: 80%;
 }
 
-#portifolio{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .titulo-portifolio {
     color: var(--clear-blue);
     text-shadow: 1px 1px 5px var(--purple);
     font-size: 2rem;
+    text-align: center;
 }
 
 .portifolio-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .portifolio-item {
@@ -154,7 +150,7 @@ header {
     height: 250px;
     background: var(--clear-blue);
     box-shadow: 1px 1px 5px var(--dark-purple);
-    margin:0 30px 30px 0;
+    margin: 15px;
     border-radius: 20px;
     padding: 20px;
     display: flex;
@@ -175,7 +171,7 @@ header {
 
 #servicos {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 60px;
 }
 
@@ -199,7 +195,7 @@ header {
     box-shadow: 1px 1px 5px var(--dark-purple);
     border-radius: 10px;
     padding: 20px;
-    margin:0 30px 30px;
+    margin:0 15px 15px;
 } 
 
 .pacote-item h2 {
@@ -411,6 +407,10 @@ header {
 
    header {
         height: auto;
+   }
+
+   .logo img {
+    width: 80px;
    }
 
    #intro, #meta {
