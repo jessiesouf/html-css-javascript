@@ -28,13 +28,13 @@ thead {
     color: #ffffff;
 }
 
+tbody tr:nth-child(odd){ 
+    background: #bf80f1;
+    color: #ffffff;
+} /*Neste elemento são definidas atribuíções nas linhas pares*/
+
 tbody tr:nth-child(even){
     background: #994bda;
     color: #ffffff;
-}
-
-tbody tr:nth-child(odd){
-    background: #bf80f1;
-    color: #ffffff;
-}
+} /*Neste elemento são definidas atribuíções nas linhas ímpares*/
 
