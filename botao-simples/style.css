@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+button {
+    padding: 20px 40px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(#6A27F6, #956af1);
+    box-shadow: 0px 0px 5px #6A27F6;
+    cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(#4305ca, #7947e4);
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+}
