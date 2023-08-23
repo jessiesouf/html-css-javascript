@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | E-commerce product page</title>
+  <link rel="stylesheet" href="style/style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+    <header>
+          <div class="header-cont cont-stand">
+            <div class="header-left">
+              
+              <div class="menu-mobile">
+                <img class="icon-menu" src="images/icon-menu.svg">
+                <a class="logo-start" href="#">sneakers</a>
+              </div>
+
+              <nav class="menu-start">
+                <div class="icon-close">
+                  <img src="images/icon-close.svg">
+                </div>
+                <ul>
+                  <li><a href="#">Collections</a></li>
+                  <li><a href="#">Men</a></li>
+                  <li><a href="#">Women</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+
+            <div class="header-right">
+                <a class="cart" href="#"><img src="images/icon-cart.svg"></a>
+                <a href="#"><img class="avatar" src="images/image-avatar.png" width="40px"></a>
+            </div>
+          </div>
+    </header>
+    <main>
+        <div class="main-product cont-stand">
+            <section class="thumbnail-produto">
+                <div class="thumbnail-img">
+                  <div class="img-main">
+                    <img src="images/image-product-1.jpg" alt="Foto do Tênis">
+                  </div>
+                <div class="thumbnail-img-slider">
+                  <input type="radio" id="img-01" name="image" checked>
+                  <input type="radio" id="img-02" name="image">
+                  <input type="radio" id="img-03" name="image">
+                  <input type="radio" id="img-04" name="image">
+                </div>
+              </div>
+            </section>
+
+            <section class="buy">
+                <span class="sneaker-company">Sneaker Company</span>
+                <h1 class="title-buy"> Fall Limited Edition Sneakers</h1>
+                <p>These low-profile sneakers are your perfect casual wear  companion. Featuring a
+                  durable rubber outer sole, they’ll withstand everything the weather can offer.
+               </p>
+
+                  <div class="buy-info">
+                    <div class="price-disc">
+                      <span class="price">$125.00</span>
+                      <span class="disc">50%</span>
+                    </div>
+                    <div>
+                      <span class="price-before"> $250.00</span>
+                    </div>
+                  </div>
+
+                  <div class="buy-group">
+                    <div class="bottom-control">
+                      <button class="bt-min">-</button>
+                      <input class="value-number" type="number">
+                      <button class="bt-max">+</button>
+                    </div>
+                    
+                    <div class="add-cart">
+                      <img src="images/icon-cart -white.svg" alt="Tênis">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+            </section>
+          </div>
+    </main>
+    <footer>
+        &copy; 2023 Direitos reservados Frontend Mentor | Desenvolvido por Jessie Souf
+    </footer>
+<script src="javascript/script.js"></script>
+</body>
+</html>

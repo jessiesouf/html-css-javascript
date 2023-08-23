@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap');
+
+/*Configurações universais*/
+:root {
+  --clear-gray: #E3E2E0;
+  --brown: #5B5247;
+  --clear-brown: #F6F4F1;
+}
+
+* {
+margin: 0;
+padding: 0;
+font-family: 'Playfair Display', serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 120px;
+  background: var(--clear-brown);
+}
+
+.nav-header ul {
+  display: flex;
+}
+.nav-header a {
+  text-transform: uppercase;
+  margin-left: 30px;
+  color: var(--brown);
+  font-weight: 600;
+}
+
+.home h1 {
+  color: var(--brown);
+}
+
+.banner {
+background-image: url('../img/joia-bg-02.jpg');
+background-size: cover;
+background-position: center;
+height: 100vh;
+}
+
+.banner-area {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-banner {
+ font-size: 35px;
+ color: #fff;
+ text-align: center;
+} 
+
+.banner-area a {
+  background: var(--clear-gray);
+  color: var(--brown);
+  padding: 10px 40px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.banner-area a:hover {
+  background: var(--brown);
+  color: var(--clear-gray);
+}
+
+.ctg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.ctg h1 {
+  margin-top: 50px;
+  color: var(--brown);
+}
+
+.back-brown {
+  width: 750px;
+  height: 350px;
+  background: var(--clear-brown);
+}
+
+.ctg-img {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  gap: 20px;
+  max-width: 300px;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(-55%, -20%);
+}
+
+.ctg-img img {
+  width: 100%;
+}
+
+.ctg-img-item a {
+  padding: 10px 40px;
+  background: #AF9D81;
+  color: var(--clear-brown);
+  border-radius: 30px;
+  margin-top: 20px;
+}
+
+.ctg-img-item {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.coments {
+ background-image: url('../img/joia-bg-03.jpg');
+ background-size: cover;
+ background-position: center;
+ height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.coments-item {
+  width: 800px;
+  height: 400px;
+  background: var(--clear-brown);
+  border: solid 1px var(--brown);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.coments-item h2, p, .stars {
+  margin-top: 50px;
+}
+
+.coments-item h2 {
+  font-size: 40px;
+  color: var(--brown);
+}
+
+.coments-item p {
+  font-size: 18px;
+}
+
+.collection {
+  position: relative;
+  display: flex;
+}
+
+.coll-left {
+  background: #F6F4F1;
+  width: 35%;
+  height: 100vh; 
+}
+
+.j-04 {
+  position: relative;
+  top: 11%;
+  left: 37%;
+ 
+}
+
+.j-05 {
+ position: relative;
+ top: 40%;
+ margin-right: 20px;
+}
+
+.j-06 {
+  position: absolute;
+  top: 25%;
+}
+
+
